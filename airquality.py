@@ -1,7 +1,7 @@
 import serial, time
 from Adafruit_IO import Client
 aio = Client('bikeeatsleeprepeat', 'Avocado#19')
-
+# holt Daten
 ser = serial.Serial('/dev/ttyUSB0')
 
 while True:
